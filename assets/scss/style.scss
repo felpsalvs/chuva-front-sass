@@ -89,7 +89,6 @@ header{
         margin-top: -52px;
         border: 1px solid #CCCCCC;
         border-radius: 3px;
-        background-color:#FDF1EB;
         text-transform: uppercase;
         align-items: center;
         justify-content: space-evenly;
@@ -100,5 +99,39 @@ header{
         color: #333;
         padding: 8px;
     }
-    
+    &__login{
+        width: 100%;
+        height: 34px;
+        margin-left: 1019px;
+        margin-top: -55px;
+        display: flex;
+        a{
+            text-transform: none;
+            font-family: 'Quicksand';
+            font-style: normal;
+            font-weight: 400;
+            border: none;
+            border-radius: none;
+            font-size: 12px;
+            line-height: 15px;
+            left: 207px;
+            top: 82px;
+            text-align: right;
+            color: #333333;
+        }
+        img{
+            border-radius: 50px;
+            margin-left: 6px;
+        }
+        p{
+            font-family: 'Quicksand';
+            font-size: 14px;
+            color: #333333;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: right;
+
+        }
+    }
 }
