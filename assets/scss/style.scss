@@ -171,3 +171,28 @@ header{
         }
     }
 }
+.video{
+    display: flex;
+    height: 439px;
+    width: 784px;
+    margin-left: 255px;
+    margin-top: -66px;
+    
+    &__play{
+    position: relative;
+    height: 439px;
+    width: 784px;
+}
+
+    &__play::before{
+        background: rgba(141, 53, 6, 0.5);
+        border-radius: 3px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 1;
+        content: '';
+}
+}
