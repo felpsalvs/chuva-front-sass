@@ -382,14 +382,14 @@ header{
 }
 
 .discussion{
-    height: 636px;
+    height: 646px;
     max-width: 1058px;
     width: 100%;
     margin-left: 252px;
     margin-top: 500px;
     border-radius: 3px;
     border: 1px solid #ECECEC;
-
+    
     &__topic{
         width: 1058px;
         height: 45px;
@@ -436,6 +436,7 @@ header{
             margin-top: 15px;
         }
     }
+    
     p{
         font-family: 'Quicksand';
         font-style: normal;
@@ -526,7 +527,7 @@ header{
         display: flex;
         align-items: center;
         gap: 1em;
-
+        
         a{
             font-family: 'Segoe UI';
             font-style: normal;
@@ -535,7 +536,11 @@ header{
             color: #757575;
             
         }
+        
     }
-    
+    &__footer-end{
+        margin-top: 50px;
+        margin-left: -28px;
+    }
 }
 
