@@ -382,7 +382,7 @@ header{
 }
 
 .discussion{
-    height: 621px;
+    height: 636px;
     max-width: 1058px;
     width: 100%;
     margin-left: 252px;
@@ -450,5 +450,92 @@ header{
         align-items: center;
         justify-content: center;
     }
+    
+    &__submit{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 15px;
+        padding-bottom: 8px;
+        border: none;
+    }
+        &__button:hover{
+            background: none;
+            border: none;
+        }
+    &__card{
+        height: 148px;
+        width: 1028px;
+        margin: 0 auto;
+        border-radius: 4px;
+        background: #FFFFFF;
+        border: 1px solid #E7E7E7;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+        display: flex;
+        align-items: baseline;
+        justify-content: left;
+        flex-direction: column;
+    }
+    &__card-header p{
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #ED7839;
+        display: flex;
+        align-items: baseline;
+        justify-content: left;
+        padding-left: 20px;
+        padding-top: 15px;
+    }
+        &__card-header a{
+            font-family: 'Quicksand';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 15px;
+            color: #5C5C5C;
+            display: flex;
+            align-items: baseline;
+            justify-content: left;
+            padding-left: 20px;
+    }
+    &__card-text span{
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #4D4D4D;
+        display: flex;
+        text-align: justify;
+        height: 35px;
+        width: 980px;
+        padding-left: 20px;
+        padding-top: 10px;
+        
+    }
+    &__footer{
+        line-height: 19px;
+        margin-left: 20px;
+        flex-direction: row;
+        padding-top: 17px;
+        display: flex;
+        align-items: center;
+        gap: 1em;
+
+        a{
+            font-family: 'Segoe UI';
+            font-style: normal;
+            font-weight: 350;
+            font-size: 14px;
+            color: #757575;
+            
+        }
+    }
+    
 }
 
