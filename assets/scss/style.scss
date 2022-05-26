@@ -286,7 +286,7 @@ header{
         width: 100%;
         max-width: 212px;
         align-items: center;
-        margin-left: -230px;
+        margin-left: -196px;
         
         p{
             font-family: 'Quicksand';
@@ -297,11 +297,12 @@ header{
             margin-top: 440px;
             letter-spacing: 0.02em;
             color: #5C5C5C;
+            margin-left: -19px;
             height: 364px;
             overflow-y: scroll;
             scroll-snap-type: y mandatory;
-            
         }
+        
         span{
             scroll-snap-align: start;
             font-family: 'Quicksand';
@@ -319,11 +320,14 @@ header{
 
 .resume{
     display: flex;
-    
+    max-width: 1058px;
+    height: 45px;
+    margin: 0 auto;
+
     &__title{
-        width: 1098px;
+        width: 1058px;
         height: 45px;
-        margin-left: -785px;
+        margin-left: -786px;
         margin-top: 480px;
         background: #FDF1EB;
         border: 1px solid #ECECEC;
@@ -336,15 +340,17 @@ header{
         display: flex;
         align-items: center;
         color: #4E4E4E;
-        padding-left: 15px;
+        padding-left: 10px;
 }
 &__text{
-    height: 189px;
-    width: 1098px;
-    margin-left: -1098px;
+    height: 380px;
+    width: 1058px;
+    margin-left: -1058px;
     margin-top: 522px;
     border-radius: 3px;
     border: 1px solid #ECECEC;
+    padding: 15px;
+    
     span{
         font-family: 'Quicksand';
         font-size: 14px;
@@ -355,7 +361,7 @@ header{
         order: 0;
         align-self: stretch;
         flex-grow: 0;
-        text-align: center;
+        color: #5C5C5C;
     }
 
     #more {display: none;}
@@ -374,14 +380,75 @@ header{
     }
 }
 }
-.discussion{
-    width: 1058px;
-    height: 45px;
-    margin-left: 0px;
-    margin-top: 761px;
 
-    background: #FDF1EB;
+.discussion{
+    height: 621px;
+    max-width: 1058px;
+    width: 100%;
+    margin-left: 252px;
+    margin-top: 500px;
+    border-radius: 3px;
     border: 1px solid #ECECEC;
-    border-radius: 3px 3px 0px 0px;
+
+    &__topic{
+        width: 1058px;
+        height: 45px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        display: flex;
+        align-items: center;
+        color: #4E4E4E;
+        padding-left: 10px;
+        background: #FDF1EB;
+        border: 1px solid #ECECEC;
+        border-radius: 3px 3px 0px 0px;
+    }
+    &__img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 27px;
+        margin-bottom: 35px;
+        gap: 3em;
+    }
+    &__submit{
+        width: 1027px;
+        width: 100%;
+        border: 1px solid #E7E7E7;
+    }
+    &__create{
+            display: flex;
+            max-width: 1058px;
+            width: 100%;
+            margin: 0 auto;
+            align-items: center;
+            justify-content: center;
+        p:nth-last-child(1){
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+            color: #ED7839;
+            margin-top: 15px;
+        }
+    }
+    p{
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #595959;
+        height: 39px;
+        width: 626px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
