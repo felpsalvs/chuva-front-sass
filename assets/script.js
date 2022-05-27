@@ -1,5 +1,3 @@
-"use strict";
-
 function myFunction() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
@@ -15,3 +13,4 @@ function myFunction() {
       moreText.style.display = "inline";
     }
   }
+  
