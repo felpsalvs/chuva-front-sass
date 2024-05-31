@@ -1,30 +1,12 @@
-# 13 SLACA
+#13 SLACA
 
-![image](https://user-images.githubusercontent.com/78622458/171429880-54868f6b-b1c4-4286-bf78-d13c539274ac.png)
+### 🔖 About
+Interface created from a prototype in Figma, the main objective of the project was to correspond to the layout requested in Figma, it is not responsive because it was not in the project prototype.
+I used JavaScript to generate functionality to See more and Hide the text inside the div.
 
-
-
-
-### 🔖 Sobre
-Interface criada apartir de um protótipo no Figma, o principal obejtivo do projeto foi corresponder ao layout requisitado no Figma, não tem responsividade porque não tinha no protótipo do projeto.
-Eu usei o JavaScript para gerar uma fucionalidade de Ver mais e Ocultar o texto dentro da div.
-
-### 🚀 Tecnologias
-Esse projeto foi desenvolvido utilizando a seguinte tecnologia:
+### 🚀 Technologies
+This project was developed using the following technology:
 
 + Html 5
 + Sass
 + JavaScript
-
-### ⚡ Como ver
-
-Link da demo: https://chuva-front.vercel.app/<br/>
-### Autor
-Felipe Alves <br/><br/>
-
-
-Entre em contato comigo, para conexão, sugestão ou dúvida! <br/>
-
-profelipealves@outlook.com <br/>
-
-https://www.linkedin.com/in/felipealves-/
